@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+  background: #2b4c7e;
+  overflow-x: hidden;
+}
+
+.titulo-cadastroA
+{
+	background-color: white;
+    height: 250px;
+    display: block;
+}
+
+.titulo-cadastroA h1
+{
+	margin-top: 9%;
+    color: #2b4c7e;
+    margin-left: 25%;
+    font-family: 'Geologica', sans-serif;
+}
+
+.titulo-cadastroA a
+{
+	float: right;
+    margin-top: 2%;
+    height: 55px;
+    width: 15%;
+	padding: 15px 50px;
+	text-decoration: none;
+    color: #2b4c7e;
+    background-color: white;
+    font-family: 'Geologica', sans-serif;
+    border: 2px solid #2b4c7e;
+}
+
+.titulo-cadastroA a:hover
+{
+	background-color: #2b4c7e;
+	color: white;
+	font-family: 'Geologica', sans-serif;
+}
+
+@media screen and (max-width: 767px)
+{
+    .titulo-cadastroA h1
+{
+    margin-left: 5%;
+	margin-top: 30%;
+}
+
+.titulo-cadastroA a
+{
+    margin-top: 2%;
+    height: 45px;
+    width: 35%;
+	padding: 20px 35px 45px;
+}
+
+}
+
+.area-cadastroA
+{
+	height: 700px;
+    background-color: white;
+}
+
+@media screen and (max-width: 767px)
+{
+    .area-cadastroA
+{
+	height: 1150px;
+}
+}
+
+
+
+.form-group2
+{
+	margin-top: 2%;
+}
+
+.form-group3
+{
+	margin-top: 2%;
+}
+
+.form-group4
+{
+	margin-top: 2%;
+}
+
+.form-group5
+{
+	margin-top: 2%;
+}
+
+.form-check
+{
+	margin-top: 2;
+}

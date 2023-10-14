@@ -1,0 +1,362 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body
+{
+	background: #e1e6e3;
+	overflow-x: hidden;
+}
+
+
+/*====================================*/
+.banner-inicial
+{
+	height: 650px;
+	background-image: url(quarto.png);
+	background-size: cover;
+	display: flex;
+	border-radius: 150px;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+}
+
+.banner-inicial .banner-text h2
+{
+	margin-left: 7%;
+	margin-top: 20%;
+	color: white;
+}
+.banner-inicial .banner-text p
+{
+	margin-left: 7%;
+	margin-top: 5%;
+	color: white;
+}
+
+.banner-inicial .banner-text button
+{
+	margin-left: 7%;
+	margin-top: 5%;
+	width: 250px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 1px  1px 1px black;
+}
+
+ .banner-img img
+{
+	margin-left: 1%;
+	
+}
+/*====================================*/
+.campo-botoes
+{
+	height: 250px;
+	background-color: white;
+	display: flex;
+}
+
+.campo-botoes .botao 
+{
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+.campo-botoes .botao button
+{
+	border-radius: 100px;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	border: 5px solid #12203b;
+	transition: all 0.5s;
+}
+
+.campo-botoes .botao button:hover
+{
+	border-radius: 200px;
+	width: 50px;
+	height: 50px;
+	background-color: #12203b;
+}
+/*====================================*/
+.campo-titlle h1
+{
+	margin-left: 5%;
+	margin-top: 4%;
+	color: white;
+}
+.campo-titlle p
+{
+	margin-left: 5%;
+	margin-top: 2%;
+	color:  white;
+}
+
+.campo-card
+{
+	display: flex;
+}
+.campo-info
+{
+	height: 300px;
+    background-color: #12203b;
+	display: block;
+	box-shadow: 0px 0px 20px  black;
+	border-radius: 100px;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+
+.campo-info .card
+{
+	height: 210px;
+	width: 355px;
+	margin-left: 1%;
+	margin-top: 2%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #12203b;
+}
+
+
+
+
+/*========================================*/
+
+
+
+
+/*======= Cards de Cursos inicio =====*/
+
+.tittle-tec
+{
+	background-image: url(curso-tec.png);
+	height: 339px;
+	margin-top: 20%;
+}
+.tittle-tec h5
+{
+	text-align: center;
+	color: #ff8c08;
+}
+
+.tittle-tec h1
+{
+	text-align: center;
+	margin-top: 7%;
+	color: white;
+}
+
+.tittle-saude
+{
+	background-image: url(curso-saude.png);
+	background-size: cover;
+	height: 339px;
+	margin-top: 20%;
+}
+.tittle-saude h5
+{
+	text-align: center;
+	color: #ff8c08;
+}
+
+.tittle-saude h1
+{
+	text-align: center;
+	margin-top: 7%;
+	color: white;
+}
+
+.campo-curso-tecno 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    margin-top: 5%;
+}
+
+.campo-curso-tecno .card-tecno
+{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.campo-curso-tecno .card-tecno:hover
+{
+    height: 650px;
+}
+
+.campo-curso-tecno .card-tecno .img-card-tecno
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    top: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.campo-curso-tecno .campo-curso-tecno .card-tecno .conteudo-card-tecno
+{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding:  0 30px;
+    height: 45px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.campo-curso-tecno .card-tecno:hover .conteudo-card-tecno
+{
+    height: 339px;
+    top: 300px;
+}
+
+.campo-curso-tecno .card-tecno .conteudo-card-tecno h2
+{
+    color: #333; 
+}
+
+.campo-curso-tecno .card-tecno .conteudo-card-tecno p
+{
+    color: #333;
+}
+
+.campo-curso-tecno .card-tecno .conteudo-card-tecno a
+{
+    background:  #12203b;
+    color: white;
+    border:  2px solid black;
+    position: relative;
+    top:  15px;
+    display: inline-block;
+    padding:  12px 25px;
+    text-decoration: none;
+    border-radius:  8px;
+}
+
+
+
+.campo-curso-saude 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    margin-top: 5%;
+}
+
+.campo-curso-saude .card-saude
+{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.campo-curso-saude .card-saude:hover
+{
+    height: 650px;
+}
+
+.campo-curso-saude .card-saude .img-card-saude
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    top: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.campo-curso-saude .card-saude .img-card-saude img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.campo-curso-saude .card-saude .conteudo-card-saude
+{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding:  0 30px;
+    height: 45px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.campo-curso-saude .card-saude:hover .conteudo-card-saude
+{
+    height: 339px;
+    top: 300px;
+}
+
+.campo-curso-saude .card-saude .conteudo-card-saude h2
+{
+    color: #333; 
+}
+
+.campo-curso-saude .card-saude .conteudo-card-saude p
+{
+    color: #333;
+}
+
+.campo-curso-saude .card-saude .conteudo-card-saude a
+{
+    background:  #12203b;
+    color: white;
+    border:  2px solid black;
+    position: relative;
+    top:  15px;
+    display: inline-block;
+    padding:  12px 25px;
+    text-decoration: none;
+    border-radius:  8px;
+}
+
+
+/*======== Cards de Cursos fim =======*/
+
+
+
+/*======== Cards de saude inicio =======*/
+
+
+/*======== Cards de saude fim =======*/
+
+/*========================================*/

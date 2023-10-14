@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background: black;
+    overflow-x: hidden;
+}
+
+
+/*celular*/
+@media screen and (max-width: 767px)
+{
+    
+
+
+
+   .banner
+   {
+    background-image: url(u-bannerMobile);
+    background-size: cover;
+    height: 630px;
+   } 
+
+   .banner h1
+{
+    color: #2b4c7e;
+    margin-top: 40%;
+    margin-left: 15%;
+    font-family: 'Geologica', sans-serif;
+    font-size: 38pt;
+}
+
+.banner h6
+{
+    color: #2b4c7e;
+    margin-top: 10%;
+    margin-left: 15%;
+    font-family: 'Geologica', sans-serif;
+}
+
+/*||||||||||||||||||||||||||||||| */
+
+.info
+{
+    background-color: #2b4c7e;
+    height: 950px;
+
+}
+
+.info .q-cards 
+{
+    margin-left: -8%;
+    border: none;
+    display: block;
+
+}
+
+.info .q-cards .card
+{
+   margin-top: 3%;
+   margin-left: 8%;
+}
+
+/*||||||||||||||||||||||||||||||| */
+
+.title-curso h1, p
+{
+    margin-top: 7%;
+    color: #2b4c7e;
+    font-family: 'Geologica', sans-serif;
+}
+
+
+.area-curso-tecnologia
+{
+    background-color: #2b4c7e;
+    padding-left: 5%;
+    border-radius: 8px;
+    height: 1500px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1px 20px;
+}
+.area-curso-tecnologia:hover
+{
+    height: 1900px;
+}
+
+.area-curso-tecnologia .card-tecno
+{
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    left: 10%;
+    justify-content: center;
+    width: 260px;
+    height: 250px;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.area-curso-saude
+{
+    background: #2b4c7e;
+    padding-left: 5%;
+    border-radius: 8px;
+    height: 1500px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1px 20px;
+
+}
+
+.area-curso-saude .card-saude
+{
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    left: 10%;
+    justify-content: center;
+    width: 260px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.area-curso-saude:hover
+{
+    height: 1900px;
+}
+
+/*||||||||||||||||||||||||||||||| */
+
+.sobre-master 
+{
+    height: 750px;
+    display: block;
+}
+
+.sobre-master .q1-sm h3
+{
+    margin-top: 20%;
+}
+
+.sobre-master .q1-sm h6
+{
+    
+    margin-left: -5%;
+}
+
+
+/*||||||||||||||||||||||||||||||| */
+
+.depoimentos 
+{
+
+    margin-top: 10%;
+    height: 2850px;
+}
+
+.depoimentos .area-depoimentos
+{
+
+    height: 1190px;
+    display: block;
+
+}
+
+.apresentacao-plataforma
+{
+    height: 1190px;
+    display: block;
+}
+
+
+
+
+}

@@ -1,0 +1,17 @@
+.navbar
+{
+	filter: blur(100px);
+}
+
+.vazio
+{
+	filter: blur(100px);
+}
+
+@media screen and (max-width: 600px)
+{
+	.vazio
+	{
+		display: none;
+	}
+}

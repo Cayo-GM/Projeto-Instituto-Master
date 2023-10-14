@@ -1,0 +1,99 @@
+.campo-curso-tecno 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    margin-top: 15%;
+}
+
+.campo-curso-tecno .card-tecno
+{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.campo-curso-tecno .card-tecno:hover
+{
+    height: 420px;
+}
+
+.campo-curso-tecno .card-tecno .img-card-tecno
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.campo-curso-tecno .card-tecno .img-card-tecno:hover
+{
+    top: -100px;
+    scale: 0.75;
+    box-shadow:  0 35px 80px rgba(0, 0, 0, 0.2);
+}
+
+.campo-curso-tecno .card-tecno .img-card-tecno img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.campo-curso-tecno .card-tecno .conteudo-card-tecno
+{
+    position: absolute;
+    top: 230px;
+    width: 100%;
+    padding:  0 30px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.campo-curso-tecno .card-tecno:hover .conteudo-card-tecno
+{
+    height: 250px;
+    top: 150px;
+}
+
+.campo-curso-tecno .card-tecno .conteudo-card-tecno h2
+{
+    color: #333; 
+}
+
+.campo-curso-tecno .card-tecno .conteudo-card-tecno p
+{
+    color: #333;
+}
+
+.campo-curso-tecno .card-tecno .conteudo-card-tecno a
+{
+    background:  #12203b;
+    color: white;
+    border:  2px solid black;
+    position: relative;
+    top:  15px;
+    display: inline-block;
+    padding:  12px 25px;
+    text-decoration: none;
+    border-radius:  8px;
+}

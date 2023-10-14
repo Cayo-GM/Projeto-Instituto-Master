@@ -1,0 +1,32 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background-color: white;
+}
+.navbar-nav
+{
+    margin-left: 20%;
+}
+
+.nav-item
+{
+  padding: 0 35px;
+  transition: 0.5s;
+}
+
+.nav-item:hover
+{
+    background-color: #2b4c7e;
+    border-radius: 25px;
+}
+
+
+
+ 

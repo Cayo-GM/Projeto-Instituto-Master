@@ -1,0 +1,22 @@
+body
+{
+background-color: white;
+overflow-x: hidden;
+}
+
+.form
+{
+	margin-top: 10%;
+}
+
+.form h2
+{
+	text-align: center;
+}
+
+.form form
+{
+	background-color: white;
+	margin-top: 4%;
+
+}

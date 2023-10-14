@@ -1,0 +1,107 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.banner-pricipal
+{
+    height: 100px;
+    background-color: darkgray;
+}
+
+.banner-pricipal p
+{
+    color: red;
+}
+
+.area-menu
+{
+    height: 750px;
+    background-color: #2b4c7e;
+    padding: 40px 0 40px 1%;
+    position: fixed;
+    top: 0px;
+
+    
+    
+}
+
+.menu-lateral 
+{
+   
+    list-style-type: none;
+    transition: 0.7s;
+    
+}
+
+.menu-lateral .item-menu a:hover
+{
+    background-color: white;
+    color: #2b4c7e;
+    border-radius: 5px;
+
+}
+
+.menu-lateral .item-menu a
+{
+    color: white;
+    text-decoration: none;
+    padding: 12px 4%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.menu-lateral .item-menu .texto-icon
+{
+    margin-left: 20px;
+}
+
+
+.conteudo-principal
+{
+    height: 850px;
+    background-color: white;
+    margin-left: 17%;
+    margin-top: 100px;  
+}
+
+.titlle-conteudo-principal h1
+{
+    color: red;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.campo-quadrado-info
+{
+    background-color: black;
+    height: 530px;
+    display: flex;
+    margin-top: 5%;
+     padding: 0; 
+}
+
+.quadrado-info1
+{
+    background-color:  red;
+    height: 410px;
+    margin-top: 5%;
+}
+
+.quadrado-info2
+{
+    background-color:  blue;
+    height: 410px;
+    margin-top: 5%;
+    margin-left: 16.6%;
+} 
+
+

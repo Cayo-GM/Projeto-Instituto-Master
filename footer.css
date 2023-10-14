@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+  overflow-x: hidden;
+}
+
+.area-footer
+{
+    display: flex;
+    background-color: black;
+}
+
+@media screen and (max-width: 767px)
+{
+    .area-footer
+    {
+        display: block;
+    }
+}
+
+.footer1
+{
+    height: 400px;
+    background-color: black;
+}
+@media screen and (max-width: 767px)
+{
+    .footer1
+    {
+        margin-top: -15%;
+        height: 300px;
+    }
+
+    .footer1 p
+    {
+        text-align: center;
+    }
+}
+
+.footer1 h4
+{
+    color: white;
+    margin-top: 25%;
+    font-family: 'Geologica', sans-serif;
+    text-align: center;
+}
+
+.footer1 p 
+{
+    color: darkgray;
+    margin-top: 9%;
+    font-family: 'Geologica', sans-serif;
+    margin-left: 15%;
+}
+
+.footer1 p:hover
+{
+    color: white;
+} 
+
+.footer2
+{
+    height: 400px;
+    background-color: black;
+}
+
+
+.footer2 h4
+{
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.footer2 p
+{
+    color: darkgray;
+    font-family: 'Geologica', sans-serif;
+    margin-top: 9%;
+}
+
+@media screen and (max-width: 767px)
+{
+    .footer2
+    {
+        height: 300px;
+        margin-top: -15%;
+    }
+
+    .footer2 h4
+    {
+        text-align: center;
+    }
+}
+
+.footer2 p:hover
+{
+    color: white;
+}
+
+.footer3
+{
+    height: 400px;
+    background-color: black;
+}
+
+.footer3 h4
+{
+   color: white;
+   font-family: 'Geologica', sans-serif;
+   margin-top: 9%;
+   margin-left: 35%;
+}
+
+.footer3 p 
+{
+    color: darkgray;
+    font-family: 'Geologica', sans-serif;
+    margin-left: -9%;
+    margin-top: 3%;
+}
+
+@media (max-width: 991.98px) 
+{
+    .footer3
+    {
+        background-color: aqua;
+        width: 10%;
+    }
+}
+
+
+@media screen and (max-width: 767px)
+{
+    .footer3
+    {
+        height: 300px;
+    }
+
+    .footer3 p
+    {
+        margin-left: 1%;
+    }
+}
+
+.footer3 a
+{
+    text-decoration: none;
+    color: 2b4c7e;
+}
